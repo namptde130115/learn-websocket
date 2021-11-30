@@ -1,0 +1,6 @@
+export default {
+    CHANGE_TEXT_SEARCH: 'skills/CHANGE_TEXT_SEARCH',
+    CHANGE_PAGINATION: 'skills/CHANGE_PAGINATION',
+    SET_DATA_SKILLS: 'skills/SET_DATA_SKILLS',
+    SET_LOADING: 'skills/SET_LOADING'
+}

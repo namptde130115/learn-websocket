@@ -1,0 +1,77 @@
+.root {
+  letter-spacing: 0.02em;
+}
+
+/* Color of button */
+.default,
+.default:hover,
+.default:focus {
+  background: #ffffff;
+  color: #000000;
+}
+
+.transparent,
+.transparent:hover,
+.transparent:focus {
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.primary,
+.primary:hover,
+.primary:focus {
+  background: var(--primary-color);
+  color: #ffffff;
+}
+
+.orange,
+.orange > a,
+.orange:hover,
+.orange:focus {
+  background: var(--orange-main);
+  color: #000000;
+  border-color: transparent;
+}
+.info,
+.info > a,
+.info:hover,
+.info:focus {
+  background: #1faeff;
+  color: var(--text-light);
+  border-color: transparent;
+}
+
+.accent,
+.accent > a,
+.accent:hover,
+.accent:focus {
+  background: #303efc;
+  color: var(--text-light);
+  border-color: transparent;
+}
+
+.success,
+.success > a,
+.success:hover,
+.success:focus {
+  background: #67c771;
+  color: var(--text-light);
+  border-color: transparent;
+}
+
+.large {
+  font-size: 18px;
+  line-height: 0.5715;
+}
+
+.middle {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.small {
+  font-size: 14px;
+  font-weight: normal;
+}

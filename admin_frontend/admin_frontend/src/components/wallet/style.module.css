@@ -1,0 +1,14 @@
+.balance span {
+  font-family: var(--inter);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.balance label {
+  color: #5c5c5c;
+  font-size: 18px;
+  line-height: 23px;
+}

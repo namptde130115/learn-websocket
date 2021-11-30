@@ -1,0 +1,86 @@
+/* The real size of button + with vortex-background */
+.root_small,
+.root_middle {
+  min-width: 130px;
+  letter-spacing: 0.02em;
+}
+
+.root_large {
+  min-width: 133px;
+}
+
+/* Ant button root*/
+.btnRoot {
+  position: relative;
+}
+
+.btnRoot:hover {
+  /* transform: translate(-3px, -2px); */
+  opacity: 0.9;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Color of button */
+.primary,
+.primary:hover,
+.primary:focus {
+  background: var(--primary-color);
+}
+
+.orange,
+.orange > a,
+.orange:hover {
+  background-color: var(--orange-main) !important;
+  color: #816900 !important;
+  border-color: transparent !important;
+}
+.info,
+.info > a,
+.info:hover {
+  background-color: #303efc !important;
+  color: var(--text-light) !important;
+  border-color: transparent !important;
+}
+.success,
+.success > a,
+.success:hover {
+  background-color: #67c771 !important;
+  color: var(--text-light) !important;
+  border-color: transparent !important;
+}
+
+/* Size of ant button */
+.middle,
+.small {
+  height: 36px;
+  line-height: 25px;
+  min-width: 101px;
+}
+
+.large {
+  height: 48px;
+  min-width: 88px;
+}
+
+/* For votex background */
+
+.vortexBackground {
+  position: absolute;
+  top: 0;
+  z-index: 0;
+  height: 100%;
+  transition: all 0.5s;
+}
+
+.small > .vortexBackground,
+.middle > .vortexBackground {
+  right: -32px;
+  height: 35.8px;
+  top: -0.8px;
+}
+
+.large > .vortexBackground {
+  right: -38px;
+  height: 48px;
+  top: -1px;
+}

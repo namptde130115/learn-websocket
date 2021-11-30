@@ -1,0 +1,6 @@
+export default {
+    CHANGE_TEXT_SEARCH: 'themes/CHANGE_TEXT_SEARCH',
+    CHANGE_PAGINATION: 'themes/CHANGE_PAGINATION',
+    SET_DATA_THEMES: 'themes/SET_DATA_THEMES',
+    SET_LOADING: 'themes/SET_LOADING'
+}
